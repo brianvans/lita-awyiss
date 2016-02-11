@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-awyiss"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["brianvans"]
   spec.email         = ["brianvans@gmail.com"]
   spec.description   = "Lita plugin for creating aw yiss memes via awyisser.com"
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "lita", "~> 4.7"
+  spec.add_runtime_dependency "lita", "~> 4", '>= 4.0.0'
   spec.add_runtime_dependency "json", "~> 1.8"
 
   spec.add_development_dependency "bundler",    "~> 1.3"
