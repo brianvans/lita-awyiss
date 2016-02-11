@@ -4,5 +4,3 @@ rvm:
 script: bundle exec rake spec
 services:
   - redis-server
-before_install:
-  - bundle install
