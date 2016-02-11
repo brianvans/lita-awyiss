@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brianvans/lita-awyiss.svg?branch=master)](https://travis-ci.org/brianvans/lita-awyiss)
+
 # lita-awyiss
 
 Aw yiss. Motha fucking lita plugin.
