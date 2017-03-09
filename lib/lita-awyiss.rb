@@ -8,5 +8,5 @@ require "lita/handlers/awyiss"
 
 Lita::Handlers::Awyiss.template_root File.expand_path(
   File.join("..", "..", "templates"),
- __FILE__
+  __FILE__
 )
