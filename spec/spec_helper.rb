@@ -1,5 +1,5 @@
-require "lita-awyiss"
-require "lita/rspec"
+require 'lita-awyiss'
+require 'lita/rspec'
 require 'webmock/rspec'
 
 # A compatibility mode is provided for older plugins upgrading from Lita 3. Since this plugin
