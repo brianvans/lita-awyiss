@@ -7,12 +7,12 @@ module Lita
         /^aw+yiss\s(.+)$/i,
         :duck,
         command: true,
-        help: { "awyiss PHRASE" => "Mutha fucking ducks" }
+        help: { 'awyiss PHRASE' => 'Mutha fucking ducks' }
       )
 
       def duck(response)
         uri = URI('http://awyisser.com/api/generator')
-        post = Net::HTTP.post_form(uri, "phrase" => response.matches.flatten[0])
+        post = Net::HTTP.post_form(uri, 'phrase' => response.matches.flatten[0])
         link = JSON.parse(post.body).fetch('link')
         response.reply(link)
       end
