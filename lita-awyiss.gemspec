@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-awyiss'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['brianvans']
   spec.email         = ['brianvans@gmail.com']
   spec.description   = 'Lita plugin for creating aw yiss memes via awyisser.com'
